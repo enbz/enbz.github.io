@@ -191,8 +191,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /docs
 keep_files:
   - .git
   - .svn
@@ -262,7 +262,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
   - jemoji
 
@@ -314,14 +314,20 @@ compress_html:
 
 # Defaults
 defaults:
+
   # _posts
   - scope:
       path: ""
       type: posts
     values:
+      sidebar:
+        nav: "docs"
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      
+
+      
