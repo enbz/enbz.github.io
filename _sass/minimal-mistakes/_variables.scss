@@ -25,6 +25,10 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 $sans-serif-narrow: $sans-serif !default;
 $helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
+/* custom typefaces */
+$departure: 'DepartureMono-Regular';  
+$dunggeunmo: 'DungGeunMo';
+
 /* serif typefaces */
 $georgia: Georgia, serif !default;
 $times: Times, serif !default;
@@ -33,7 +37,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+$header-font-family: $monospace !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
@@ -158,9 +162,9 @@ $max-width: $x-large !default;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+$right-sidebar-width-narrow: 100px !default;
+$right-sidebar-width: 200px !default;
+$right-sidebar-width-wide: 250px !default;
 
 /*
    Other

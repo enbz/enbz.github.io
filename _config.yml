@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "코딩 맨땅에 헤딩하기"
+title                    : "ANOTHER DEVLOG"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+subtitle                 : 
+name                     : "Eunbi Lee"
+description              : "A devlog by enbz."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             	: "enbz"
-  avatar           	: "/assets/images/jammanbo.png"
+  avatar           	: "/assets/images/holo5.gif"
   bio              	: "인생은 짧고 배울 건 많다"
   location         	: "Seoul, South Korea"
   email            	: "dldmsql0215@snu.ac.kr"
