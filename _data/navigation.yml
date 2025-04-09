@@ -11,9 +11,31 @@ main:
   - title: "Sitemap"
     url: /sitemap/
 
-# categories:
-#   - title: "Categories1"
-#     url: /categories/categories1/
+categories:
+  - title: "💻 딥러닝/로보틱스"
+    children:
+      - title: "3D Vision"
+      url: /categories/3d-vision/
+      - title: "Image Processing"
+      url: /categories/image-processing/
+      - title: "SLAM"
+      url: /categories/slam/      
+  - title: "👓 광학/디스플레이"
+    children:
+      - title: "홀로그램"
+      url: /categories/hologram/
+      - title: "AR/VR"
+      url: /categories/ar-vr/
+      - title: "디스플레이 이모저모"
+      url: /categories/display-blahblah/
+  - title: "👩‍💻 프로그래밍"
+    children:
+      - title: "코딩테스트 공부"
+      url: /categories/coding-test/
+  - title: " 프로젝트"
+    children:
+      - title: "블로그 꾸미기"
+      url: /categories/blog-deco/
 
 
 docs:
