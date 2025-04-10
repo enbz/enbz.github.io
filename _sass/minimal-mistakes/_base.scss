@@ -35,7 +35,7 @@ h6 {
 
 h1 {
   margin-top: 0;
-  font-size: $h-size-1;
+  font-size: $h-size-6;
 }
 
 h2 {
@@ -126,6 +126,7 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;  
   &:focus {
     @extend %tab-focus;
   }
