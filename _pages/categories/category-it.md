@@ -1,0 +1,16 @@
+---
+title: "IT 이모저모" # 카테고리 이름
+layout: category
+permalink: /blahblah/it # url
+author_profile: true
+taxonomy: it
+sidebar:
+  nav: "categories"
+---
+
+{% assign posts = site.tags['IT']%}
+{% for post in posts %}
+  {% if post.category == 'blahblah' %}
+    {% include archive-single.html type=page.entries_layout %}
+  {% endif %}
+{% endfor %}
