@@ -20,13 +20,13 @@
             <a href="{{ nav.url | relative_url }}">
               <span class="nav__sub-title">
                 {{ nav.title }}
-                {% if category_total >= 0 %}<span class="count">({{ category_total }})</span>{% endif %}
+                {% if category_total > 0 %}<span class="count">({{ category_total }})</span>{% endif %}
               </span>
             </a>
           {% else %}
             <span class="nav__sub-title">
               {{ nav.title }}
-              {% if category_total >= 0 %}<span class="count">({{ category_total }})</span>{% endif %}
+              {% if category_total > 0 %}<span class="count">({{ category_total }})</span>{% endif %}
             </span>
           {% endif %}
 

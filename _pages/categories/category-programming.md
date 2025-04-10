@@ -3,7 +3,7 @@ title: "프로그래밍" # 카테고리 이름
 layout: category
 permalink: /programming/ # url
 author_profile: true
-taxonomy: study
+taxonomy: programming
 sidebar:
   nav: "categories"
 ---
