@@ -1,7 +1,7 @@
 ---
-title: "IT 이모저모" # 카테고리 이름
+title: "IT 이야기" # 카테고리 이름
 layout: category
-permalink: /blahblah/it # url
+permalink: /blahblah/it/ # url
 author_profile: true
 taxonomy: it
 sidebar:

@@ -1,7 +1,7 @@
 ---
 title: "코딩테스트" # 카테고리 이름
 layout: category
-permalink: /programming/coding-test # url
+permalink: /programming/coding-test/ # url
 author_profile: true
 taxonomy: coding-test
 sidebar:

@@ -1,14 +1,14 @@
 ---
-title: "프로그래밍" # 카테고리 이름
+title: "Projects" # 카테고리 이름
 layout: category
-permalink: /programming/ # url
+permalink: /projects/ # url
 author_profile: true
-taxonomy: programming
+taxonomy: projects
 sidebar:
   nav: "categories"
 ---
 
-{% assign posts = site.categories['programming']%}
+{% assign posts = site.categories['projects']%}
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
 {% endfor %}

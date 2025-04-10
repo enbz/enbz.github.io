@@ -1,7 +1,7 @@
 ---
 title: "일상" # 카테고리 이름
 layout: category
-permalink: /blahblah/daily # url
+permalink: /blahblah/daily/ # url
 author_profile: true
 taxonomy: daily
 sidebar:
