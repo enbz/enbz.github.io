@@ -6,13 +6,6 @@ main:
     url: /tags/
 
 categories:
-  - title: "💻 프로그래밍"
-    url: /programming/
-    category: "programming"
-    children:
-      - title: "코딩테스트"
-        url: /programming/coding-test/
-        tag: "Coding Test"
   - title: "📝 공부하기"
     url: /study/
     category: "study"
@@ -32,6 +25,13 @@ categories:
       - title: "SLAM"
         url: /study/slam/ 
         tag: "SLAM"     
+  - title: "💻 프로그래밍"
+    url: /programming/
+    category: "programming"
+    children:
+      - title: "코딩테스트"
+        url: /programming/coding-test/
+        tag: "Coding Test"        
   - title: "🚀 프로젝트"
     url: /projects/
     category: "projects"
