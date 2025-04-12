@@ -1,6 +1,9 @@
 ---
 title: "Layout: Post Date Enabled"
 show_date: true
+categories:
+  - Layout
+  - Uncategorized
 tags:
   - post date
 ---
