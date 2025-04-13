@@ -47,11 +47,12 @@ comments:
     theme                : # "github-light" #(default), "github-dark"
     issue_term           : # "pathname" #(default)
   giscus:
+    repo                 : "enbz/giscus_repo"
     repo_id              : "R_kgDOOY7Fvw"
     category_name        : "Announcements"
     category_id          : "DIC_kwDOOY7Fv84CpDlZ"
     discussion_term      : "pathname"
-    reactions_enabled    : '1'
+    reactions_enabled    : 1
     theme                : "light"
     strict               : 0
     input_position       : "top"
