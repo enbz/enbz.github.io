@@ -8,7 +8,7 @@ sidebar:
   nav: "categories"
 ---
 
-{% assign posts = site.tags['Blog Deco']%}
+{% assign posts = site.categories['Blog Deco']%}
 {% for post in posts %}
   {% if post.category == 'projects' %}
     {% include archive-single.html type=page.entries_layout %}

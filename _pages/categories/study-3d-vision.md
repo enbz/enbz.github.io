@@ -8,7 +8,7 @@ sidebar:
   nav: "categories"
 ---
 
-{% assign posts = site.tags['3D Vision']%}
+{% assign posts = site.categories['3D Vision']%}
 {% for post in posts %}
   {% if post.category == 'study' %}
     {% include archive-single.html type=page.entries_layout %}

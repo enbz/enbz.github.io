@@ -8,7 +8,7 @@ sidebar:
   nav: "categories"
 ---
 
-{% assign posts = site.tags['Coding Test']%}
+{% assign posts = site.categories['Coding Test']%}
 {% for post in posts %}
   {% if post.category == 'programming' %}
     {% include archive-single.html type=page.entries_layout %}

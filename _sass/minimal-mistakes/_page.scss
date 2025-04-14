@@ -334,11 +334,12 @@ body {
 
 .page__taxonomy-item {
   display: inline-block;
-  margin-inline-end: 5px;
-  margin-bottom: 8px;
-  padding: 5px 10px;
+  margin-inline-end: 2px;
+  margin-bottom: 1px;
+  padding: 2px 2px;
   text-decoration: none;
-  border: 1px solid mix(#000, $border-color, 25%);
+  // border: 1px solid mix(#000, $border-color, 25%);
+  border: none;
   border-radius: $border-radius;
 
   &:hover {

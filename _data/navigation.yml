@@ -14,19 +14,19 @@ categories:
     children:
       - title: "3D Vision"
         url: /study/3d-vision/
-        tag: "3D Vision"
+        category: "3D Vision"
       - title: "Hologram"
         url: /study/hologram/
-        tag: "Hologram"
+        category: "Hologram"
       - title: "AR/VR"
         url: /study/ar-vr/
-        tag: "AR/VR"
+        category: "AR/VR"
       - title: "Graphics"
         url: /study/graphics/   
-        tag: "Graphics"  
+        category: "Graphics"  
       - title: "SLAM"
         url: /study/slam/ 
-        tag: "SLAM"     
+        category: "SLAM"     
 
   - title: "💻 프로그래밍"
     url: /programming/
@@ -34,7 +34,7 @@ categories:
     children:
       - title: "코딩테스트"
         url: /programming/coding-test/
-        tag: "Coding Test"
+        category: "Coding Test"
 
   - title: "🚀 프로젝트"
     url: /projects/
@@ -42,7 +42,7 @@ categories:
     children:
       - title: "블로그 꾸미기"
         url: /projects/blog-deco/
-        tag: "Blog Deco"
+        category: "Blog Deco"
 
   - title: "🥨 이모저모"
     url: /blahblah/
@@ -50,7 +50,7 @@ categories:
     children:
       - title: "일상"
         url: /blahblah/daily/    
-        tag: "Daily"    
+        category: "Daily"    
       - title: "IT 이야기"
         url: /blahblah/it/    
-        tag: "IT"    
+        category: "IT"    

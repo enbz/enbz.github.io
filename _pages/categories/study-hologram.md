@@ -8,7 +8,7 @@ sidebar:
   nav: "categories"
 ---
 
-{% assign posts = site.tags['Hologram']%}
+{% assign posts = site.categories['Hologram']%}
 {% for post in posts %}
   {% if post.category == 'study' %}
     {% include archive-single.html type=page.entries_layout %}
