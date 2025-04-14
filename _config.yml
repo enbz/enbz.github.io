@@ -52,7 +52,7 @@ comments:
     category_name        : "Announcements"
     category_id          : "DIC_kwDOOY7Fv84CpDlZ"
     discussion_term      : "pathname"
-    reactions_enabled    : 1
+    reactions_enabled    : 0
     theme                : "noborder_light"
     strict               : 0
     input_position       : "bottom"
