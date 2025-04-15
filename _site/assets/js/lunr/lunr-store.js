@@ -106,4 +106,16 @@ var store = [{
         "tags": ["computer vision","coding"],
         "url": "/%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/3d-vision/chocolate-chip-cookies/",
         "teaser": null
+      },{
+        "title": "Oatmeal Cookies",
+        "excerpt":"Oatmeal cookies are a proverbial favorite with both kids and adults. This crisp and chewy cookie is loaded with oats, dried fruit, and chopped nuts.   Ingredients      1 cup butter, softened 1 cup white sugar   1 cup packed brown sugar   2 eggs   1 teaspoon vanilla extract   2 cups all-purpose flour   1 teaspoon baking soda   1 teaspoon salt   1 1/2 teaspoons ground cinnamon   3 cups quick cooking oats   Directions      In a medium bowl, cream together butter, white sugar, and brown sugar. Beat in eggs one at a time, then stir in vanilla. Combine flour, baking soda, salt, and cinnamon; stir into the creamed mixture. Mix in oats. Cover, and chill dough for at least one hour.   Preheat the oven to 375 degrees F (190 degrees C). Grease cookie sheets. Roll the dough into walnut sized balls, and place 2 inches apart on cookie sheets. Flatten each cookie with a large fork dipped in sugar.   Bake for 8 to 10 minutes in preheated oven. Allow cookies to cool on baking sheet for 5 minutes before transferring to a wire rack to cool completely.  ","categories": ["프로젝트","블로그 꾸미기"],
+        "tags": ["content","embeds"],
+        "url": "/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%BE%B8%EB%AF%B8%EA%B8%B0/oatmeal-cookies/",
+        "teaser": null
+      },{
+        "title": "Peanut Butter Cookies",
+        "excerpt":"A peanut butter cookie is a type of cookie that is distinguished for having peanut butter as a principal ingredient. The cookie generally originated in the United States, its development dating back to the 1910s.   Ingredients      1 cup unsalted butter   1 cup crunchy peanut butter   1 cup white sugar   1 cup packed brown sugar   2 eggs 2   1/2 cups all-purpose flour   1 teaspoon baking powder   1/2 teaspoon salt   1 1/2 teaspoons baking soda   Directions      Cream butter, peanut butter, and sugars together in a bowl; beat in eggs.   In a separate bowl, sift flour, baking powder, baking soda, and salt; stir into butter mixture. Put dough in refrigerator for 1 hour.   Roll dough into 1 inch balls and put on baking sheets. Flatten each ball with a fork, making a crisscross pattern. Bake in a preheated 375 degrees F oven for about 10 minutes or until cookies begin to brown.  ","categories": ["이모저모","IT 이야기"],
+        "tags": ["content","embeds"],
+        "url": "/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/it-%EC%9D%B4%EC%95%BC%EA%B8%B0/peanut-butter-cookies/",
+        "teaser": null
       }]

@@ -20,7 +20,7 @@ categories:
         category: "Hologram"
       - title: "AR/VR"
         url: /공부하기/ar-vr/
-        category: "AR/VR"
+        category: "AR-VR"
       - title: "Graphics"
         url: /공부하기/graphics/   
         category: "Graphics"  
@@ -41,7 +41,7 @@ categories:
     category: "프로젝트"
     children:
       - title: "블로그 꾸미기"
-        url: /프로젝트/blog-deco/
+        url: /프로젝트/블로그-꾸미기/
         category: "블로그 꾸미기"
 
   - title: "🥨 이모저모"
@@ -52,6 +52,5 @@ categories:
         url: /이모저모/일상/    
         category: "일상"    
       - title: "IT 이야기"
-        url: /이모저모/it-talk/    
+        url: /이모저모/it-이야기/    
         category: "IT 이야기"    
-

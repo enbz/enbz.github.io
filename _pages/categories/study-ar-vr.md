@@ -8,7 +8,7 @@ sidebar:
   nav: "categories"
 ---
 
-{% assign posts = site.categories['AR/VR']%}
+{% assign posts = site.categories['AR-VR']%}
 {% for post in posts %}
     {% include archive-single.html type=page.entries_layout %}
 {% endfor %}

@@ -16,9 +16,10 @@
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     {% assign crumbs = page.url | split: '/' %}
     {% assign i = 1 %}
-    {% assign path_so_far = "" %}
+    {% assign path_so_far = "/" %}
     {% for crumb in crumbs offset: 1 %}
-      {% assign path_so_far = path_so_far | append: "/" | append: crumb  %}
+      {% assign path_so_far = path_so_far |  append: crumb | append: "/" | url_decode %}
+      <!-- {{ path_so_far | inspect}} -->
       {% if forloop.first %}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
           <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">{{ site.data.ui-text[site.locale].breadcrumb_home_label | default: "Home" }}</span></a>
@@ -31,12 +32,10 @@
         <li class="current"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</li>
       {% else %}
         {% assign i = i | plus: 1 %}
-        
-        {% assign matched_page = site.pages | where: "url", path_so_far | first %}
 
+        {% assign matched_page = site.pages | where_exp: "item", "item.permalink == path_so_far" | first %}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
           {% if matched_page %}
-
             {% assign crumb_title = matched_page.title %}
   
           {% else %}

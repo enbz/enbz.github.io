@@ -1,7 +1,7 @@
 ---
 title: "블로그 꾸미기" # 카테고리 이름
 layout: category
-permalink: /프로젝트/blog-deco/ # url
+permalink: /프로젝트/블로그-꾸미기/ # url
 author_profile: true
 taxonomy: blog-deco
 sidebar:
