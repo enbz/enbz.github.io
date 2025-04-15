@@ -132,6 +132,11 @@
               >Tags</a>
             </li></ul>
         
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">토글 메뉴</span>
           <div class="navicon"></div>
@@ -291,7 +296,7 @@
 
         <li>
           
-            <a href="/study/">
+            <a href="/%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/">
               <span class="nav__sub-title">
                 📝 공부하기
                 
@@ -304,35 +309,35 @@
               
                 
                 <li>
-                  <a href="/study/3d-vision/">
+                  <a href="/%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/3d-vision/">
                     3D Vision <span class="count">(0)</span>
                   </a>
                 </li>
               
                 
                 <li>
-                  <a href="/study/hologram/">
+                  <a href="/%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/hologram/">
                     Hologram <span class="count">(0)</span>
                   </a>
                 </li>
               
                 
                 <li>
-                  <a href="/study/ar-vr/">
+                  <a href="/%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/ar-vr/">
                     AR/VR <span class="count">(0)</span>
                   </a>
                 </li>
               
                 
                 <li>
-                  <a href="/study/graphics/">
+                  <a href="/%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/graphics/">
                     Graphics <span class="count">(0)</span>
                   </a>
                 </li>
               
                 
                 <li>
-                  <a href="/study/slam/">
+                  <a href="/%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/slam/">
                     SLAM <span class="count">(0)</span>
                   </a>
                 </li>
@@ -347,7 +352,7 @@
 
         <li>
           
-            <a href="/programming/">
+            <a href="/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/">
               <span class="nav__sub-title">
                 💻 프로그래밍
                 
@@ -360,7 +365,7 @@
               
                 
                 <li>
-                  <a href="/programming/coding-test/">
+                  <a href="/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8/">
                     코딩테스트 <span class="count">(0)</span>
                   </a>
                 </li>
@@ -375,7 +380,7 @@
 
         <li>
           
-            <a href="/projects/">
+            <a href="/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">
               <span class="nav__sub-title">
                 🚀 프로젝트
                 
@@ -388,7 +393,7 @@
               
                 
                 <li>
-                  <a href="/projects/blog-deco/">
+                  <a href="/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/blog-deco/">
                     블로그 꾸미기 <span class="count">(0)</span>
                   </a>
                 </li>
@@ -403,7 +408,7 @@
 
         <li>
           
-            <a href="/blahblah/">
+            <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/">
               <span class="nav__sub-title">
                 🥨 이모저모
                 
@@ -416,14 +421,14 @@
               
                 
                 <li>
-                  <a href="/blahblah/daily/">
+                  <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/">
                     일상 <span class="count">(0)</span>
                   </a>
                 </li>
               
                 
                 <li>
-                  <a href="/blahblah/it/">
+                  <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/it-talk/">
                     IT 이야기 <span class="count">(0)</span>
                   </a>
                 </li>
@@ -443,6 +448,7 @@
 
 
   <div class="archive">
+    
     
       <h1 id="page-title" class="page__title"></h1>
     
@@ -467,7 +473,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/chocolate-chip-cookies/" rel="permalink">Chocolate Chip Cookies
+        <a href="/%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/3d-vision/chocolate-chip-cookies/" rel="permalink">3D Chocolate Chip Cookies
 </a>
       
     </h2>
@@ -701,6 +707,17 @@
     </div>
 
     
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="검색어를 입력하세요..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
 
     <div id="footer" class="page__footer">
       <footer>
@@ -747,6 +764,10 @@
 
 
 
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 

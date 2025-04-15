@@ -9,48 +9,49 @@ main:
 categories:
 
   - title: "📝 공부하기"
-    url: /study/
-    category: "study"
+    url: /공부하기/
+    category: "공부하기"
     children:
       - title: "3D Vision"
-        url: /study/3d-vision/
+        url: /공부하기/3d-vision/
         category: "3D Vision"
       - title: "Hologram"
-        url: /study/hologram/
+        url: /공부하기/hologram/
         category: "Hologram"
       - title: "AR/VR"
-        url: /study/ar-vr/
+        url: /공부하기/ar-vr/
         category: "AR/VR"
       - title: "Graphics"
-        url: /study/graphics/   
+        url: /공부하기/graphics/   
         category: "Graphics"  
       - title: "SLAM"
-        url: /study/slam/ 
+        url: /공부하기/slam/ 
         category: "SLAM"     
 
   - title: "💻 프로그래밍"
-    url: /programming/
-    category: "programming"
+    url: /프로그래밍/
+    category: "프로그래밍"
     children:
       - title: "코딩테스트"
-        url: /programming/coding-test/
-        category: "Coding Test"
+        url: /프로그래밍/코딩테스트/
+        category: "코딩테스트"
 
   - title: "🚀 프로젝트"
-    url: /projects/
-    category: "projects"
+    url: /프로젝트/
+    category: "프로젝트"
     children:
       - title: "블로그 꾸미기"
-        url: /projects/blog-deco/
-        category: "Blog Deco"
+        url: /프로젝트/blog-deco/
+        category: "블로그 꾸미기"
 
   - title: "🥨 이모저모"
-    url: /blahblah/
-    category: "blahblah"
+    url: /이모저모/
+    category: "이모저모"
     children:
       - title: "일상"
-        url: /blahblah/daily/    
-        category: "Daily"    
+        url: /이모저모/일상/    
+        category: "일상"    
       - title: "IT 이야기"
-        url: /blahblah/it/    
-        category: "IT"    
+        url: /이모저모/it-talk/    
+        category: "IT 이야기"    
+

@@ -1,5 +1,11 @@
 ---
-title: "Chocolate Chip Cookies"
+title: "3D Chocolate Chip Cookies"
+categories:
+  - 공부하기
+  - 3D Vision
+tags:
+  - computer vision
+  - coding
 ---
 
 A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient.

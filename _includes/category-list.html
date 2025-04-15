@@ -6,14 +6,15 @@
 {% endcase %}
 
 {% if site.category_archive.path %}
-  {% assign categories_sorted = page.categories | sort_natural %}
+  {% assign categories_sorted = page.categories %}
 
   <p class="page__taxonomy">
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> {{ site.da-text[site.locale].categories_label | default: "Categories:" }} </strong>
     <span itemprop="keywords">
     {% for category_word in categories_sorted %}
-      <a href="{{ category_word | slugify | prepend: path_type | prepend: site.category_archive.path | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ category_word }}</a>{% unless forloop.last %}<span class="sep">, </span>{% endunless %}
-    {% endfor %}
+      <a href="{{ category_word | downcase | replace: ' ', '-' | prepend: '/' | prepend: prev_category | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ category_word }}</a>{% unless forloop.last %}<span class="sep">, </span>{% endunless %}
+      {% assign prev_category = category_word | downcase %}
+      {% endfor %}
     </span>
   </p>
 {% endif %}

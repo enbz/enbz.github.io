@@ -9,14 +9,16 @@
   {% assign path_type = nil %}
   {% assign crumb_path = '/' %}
 {% else %}
-  {% assign crumb_path = site.category_archive.path %}
+  {% assign crumb_path = '/' %}
 {% endif %}
 
 <nav class="breadcrumbs">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     {% assign crumbs = page.url | split: '/' %}
     {% assign i = 1 %}
+    {% assign path_so_far = "" %}
     {% for crumb in crumbs offset: 1 %}
+      {% assign path_so_far = path_so_far | append: "/" | append: crumb  %}
       {% if forloop.first %}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
           <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">{{ site.data.ui-text[site.locale].breadcrumb_home_label | default: "Home" }}</span></a>
@@ -29,12 +31,27 @@
         <li class="current"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</li>
       {% else %}
         {% assign i = i | plus: 1 %}
+        
+        {% assign matched_page = site.pages | where: "url", path_so_far | first %}
+
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="{{ crumb | downcase | replace: '%20', '-' | prepend: path_type | prepend: crumb_path | relative_url }}" itemprop="item"><span itemprop="name">{{ crumb | url_decode | replace: '-', ' ' | capitalize }}</span></a>
+          {% if matched_page %}
+
+            {% assign crumb_title = matched_page.title %}
+  
+          {% else %}
+            {% assign crumb_title = crumb | capitalize | url_decode %}
+            
+          {% endif %}
+          
+          
+          
+          <a href="{{ crumb | uppercase | replace: '%20', '-' | replace: ' ', '-' |prepend: crumb_path | prepend: prev_crumb | relative_url }}" itemprop="item"><span itemprop="name">{{ crumb_title }}</span></a>
+          {% assign prev_crumb = crumb %}
           <meta itemprop="position" content="{{ i }}" />
         </li>
         <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
       {% endif %}
     {% endfor %}
   </ol>
-</nav>
+</nav> 
