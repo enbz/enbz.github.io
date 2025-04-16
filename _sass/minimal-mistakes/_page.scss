@@ -284,7 +284,7 @@ body {
 
 .page__share-title {
   margin-bottom: 10px;
-  font-size: $type-size-6;
+  font-size: 0.9em;
   text-transform: uppercase;
 }
 
@@ -323,6 +323,8 @@ body {
    ========================================================================== */
 
 .page__taxonomy {
+
+  padding-bottom: 3px;
   .sep {
     display: none;
   }
@@ -350,7 +352,7 @@ body {
 
 .taxonomy__section {
   margin-bottom: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 
   &:not(:last-child) {
     border-bottom: solid 1px $border-color;

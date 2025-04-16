@@ -10,7 +10,8 @@
         
         {% if nav.children %}
           {% for child in nav.children %}
-            {% assign count = site.posts | where: "category", nav.category | where_exp: "item", "item.categories contains child.category" | size %}
+            {% assign child_category = child.category %}
+            {% assign count = site.posts | where_exp: "post", "post.categories contains child_category" | size %}
             {% assign category_total = category_total | plus: count %}
           {% endfor %}
         {% endif %}
@@ -33,7 +34,7 @@
           {% if nav.children %}
             <ul>
               {% for child in nav.children %}
-                {% assign post_count = site.posts | where: "category", nav.category | where_exp: "item", "item.categories contains child.category" | size %}
+                {% assign post_count = site.posts | where_exp: "post", "post.categories contains child.category" | size %}
                 <li>
                   <a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>
                     {{ child.title }} <span class="count">({{ post_count }})</span>
