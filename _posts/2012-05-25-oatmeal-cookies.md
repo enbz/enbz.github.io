@@ -1,8 +1,8 @@
 ---
 title: "Oatmeal Cookies"
 categories:
-  - 프로젝트
-  - 블로그 꾸미기
+  - 이모저모
+  - IT 이야기
 tags:
   - content
   - embeds  

@@ -1,8 +1,8 @@
 ---
 title: "3D Chocolate Chip Cookies"
 categories:
-  - 공부하기
-  - 3D Vision
+  - 이모저모
+  - IT 이야기
 tags:
   - computer vision
   - coding

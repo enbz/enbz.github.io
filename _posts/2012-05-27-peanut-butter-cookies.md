@@ -1,5 +1,8 @@
 ---
 title: "Peanut Butter Cookies"
+header:
+  image: /assets/images/peanut-butter-cookies.jpg
+  teaser: /assets/images/Dairy-Free-Peanut-Butter-Cookies-4.jpg
 categories:
   - 이모저모
   - IT 이야기

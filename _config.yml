@@ -256,7 +256,6 @@ pagination:
     before: 2
     after: 2
 
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -312,9 +311,8 @@ compress_html:
     envs: development
 
 
-# Defaults
-defaults:
 
+defaults:
   # _posts
   - scope:
       path: ""
