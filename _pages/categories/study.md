@@ -8,7 +8,11 @@ sidebar:
   nav: "categories"
 ---
 
-{% assign posts = site.categories['공부하기']%}
+
+{% assign posts = site.categories['공부하기'] %}
 {% for post in posts %}
-  {% include archive-single.html type=page.entries_layout %}
+  {% include archive-single.html type='list' %}
 {% endfor %}
+
+
+

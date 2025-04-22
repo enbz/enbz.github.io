@@ -430,39 +430,43 @@
 	}
 }
 
-.view-switch {
-  margin-bottom: 1em;
-}
+/* View switch button layout */
 
+/* 버튼 */
 .view-btn {
   padding: 0.5em 1em;
-  margin-right: 0.5em;
+  
+  border: none;
+  // border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0);
   cursor: pointer;
-  border: 1px solid #ccc;
-  background: #f4f4f4;
-  border-radius: 4px;
+  margin-right: 0.5em;
+  border-radius: 5px;
 }
 
 .view-btn.active {
-  background: #007acc;
-  color: white;
-  border-color: #007acc;
+  // background: #007acc;
+  color: rgb(19, 90, 197);
 }
 
-/* 뷰 타입별로 스타일링 */
-.entries-list .archive__item {
+/* 기본 목록 보기 스타일 */
+.list .post__item {
   display: block;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em;
 }
 
-.entries-grid {
+/* 그리드 스타일 */
+.grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
 }
-.entries-grid .archive__item {
-  flex: 0 0 calc(33.333% - 1em);
+
+.grid .post__item {
+  flex: 0 0 calc(33% - 1em);
+  box-sizing: border-box;
   border: 1px solid #ddd;
   padding: 1em;
-  box-sizing: border-box;
 }
