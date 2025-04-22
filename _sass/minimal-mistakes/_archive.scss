@@ -147,7 +147,8 @@
 }
 
 .grid__item {
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 
   @include breakpoint($small) {
     float: inline-start;
@@ -432,21 +433,28 @@
 
 /* View switch button layout */
 
+.view-switch {
+  display: flex;
+  justify-content: flex-end; /* 👉 오른쪽으로 정렬 */
+  margin-bottom: 0em;
+  gap: 0.5em; /* 버튼 사이 간격 */
+}
 /* 버튼 */
 .view-btn {
-  padding: 0.5em 1em;
-  
+  padding: 0em 0em;
+  font-family: 'leferi';
   border: none;
   // border: 1px solid #ccc;
   background: rgba(255, 255, 255, 0);
   cursor: pointer;
   margin-right: 0.5em;
-  border-radius: 5px;
+  margin-bottom: 0em;
+  border-radius: 2px;
 }
 
 .view-btn.active {
-  // background: #007acc;
-  color: rgb(19, 90, 197);
+  background: #27d4ff;
+  color: rgb(255, 255, 255);
 }
 
 /* 기본 목록 보기 스타일 */
