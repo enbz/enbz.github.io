@@ -11,6 +11,6 @@ sidebar:
 {% assign posts = site.categories['IT 이야기']%}
 <div class="grid__wrapper">
   {% for post in posts %}
-    {% include archive-single.html type='grid' %}
+    {% include archive-single.html type=page.entries_layout %}
   {% endfor %}
 </div>

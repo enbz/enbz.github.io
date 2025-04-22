@@ -4,7 +4,52 @@ layout: archive
 
 {{ content }}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
+<!-- 🔘 View Switch Buttons -->
+<div class="view-switch">
+  <button id="list-view-btn" class="view-btn active">List 보기</button>
+  <button id="grid-view-btn" class="view-btn">Grid 보기</button>
+</div>
+
+<!-- 💡 Posts Container -->
+<div id="posts-container" class="entries-list">
   {% include posts-category.html taxonomy=page.taxonomy %}
 </div>
+
+
+
+<script>
+  const listBtn = document.getElementById('list-view-btn');
+  const gridBtn = document.getElementById('grid-view-btn');
+  const container = document.getElementById('posts-container');
+
+  listBtn.addEventListener('click', () => {
+    container.classList.remove('entries-grid');
+    container.classList.add('entries-list');
+    listBtn.classList.add('active');
+    gridBtn.classList.remove('active');
+    localStorage.setItem('viewMode', 'list');
+  });
+
+  gridBtn.addEventListener('click', () => {
+    container.classList.remove('entries-list');
+    container.classList.add('entries-grid');
+    gridBtn.classList.add('active');
+    listBtn.classList.remove('active');
+    localStorage.setItem('viewMode', 'grid');
+  });
+
+    // 💾 Save user's view preference
+    document.addEventListener('DOMContentLoaded', () => {
+    const savedView = localStorage.getItem('viewMode');
+    if (savedView === 'grid') {
+      gridBtn.click();
+    } else {
+      listBtn.click();
+    }
+  });
+</script>
+
+<!-- {% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include posts-category.html taxonomy=page.taxonomy %}
+</div> -->

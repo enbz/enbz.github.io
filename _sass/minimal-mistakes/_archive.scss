@@ -429,3 +429,40 @@
 		display: inline-block;
 	}
 }
+
+.view-switch {
+  margin-bottom: 1em;
+}
+
+.view-btn {
+  padding: 0.5em 1em;
+  margin-right: 0.5em;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+
+.view-btn.active {
+  background: #007acc;
+  color: white;
+  border-color: #007acc;
+}
+
+/* 뷰 타입별로 스타일링 */
+.entries-list .archive__item {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.entries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.entries-grid .archive__item {
+  flex: 0 0 calc(33.333% - 1em);
+  border: 1px solid #ddd;
+  padding: 1em;
+  box-sizing: border-box;
+}
