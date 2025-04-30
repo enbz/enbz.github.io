@@ -15,7 +15,7 @@ sidebar:
     <img src="/assets/images/berry.png" alt="List View" width="24"> 
   </button>
   <button id="grid-view-btn" class="view-btn">
-    <img src="/assets/images/berryberry.png" alt="Grid View" width="24"> 
+    <img src="/assets/images/enabi.png" alt="Grid View" width="24"> 
   </button>
 
 </div>
