@@ -12,10 +12,10 @@ sidebar:
 
 <div class="view-switch">
   <button id="list-view-btn" class="view-btn active">
-    <img src="/assets/images/icon-grid.png" alt="List View" width="24"> 
+    <img src="../../assets/images/icon-list.png" alt="List View" width="24"> 
   </button>
   <button id="grid-view-btn" class="view-btn">
-    <img src="/assets/images/icon-list.png" alt="Grid View" width="24"> 
+    <img src="../../assets/images/icon-grid.png" alt="Grid View" width="24"> 
   </button>
 
 </div>
