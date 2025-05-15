@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "en_EN"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "ANOTHER DEVLOG"
 title_separator          : "-"
@@ -114,8 +114,8 @@ analytics:
 # Site Author
 author:
   name             	: "enbz"
-  avatar           	: "/assets/images/cat3.png"
-  bio              	: "인생은 짧고 배울 건 많다"
+  avatar           	: "/assets/images/teddy.jpg"
+  bio              	: "chasing a vision"
   location         	: "Seoul, South Korea"
   email            	: "dldmsql0215@snu.ac.kr"
   links:
