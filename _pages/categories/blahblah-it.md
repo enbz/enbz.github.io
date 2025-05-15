@@ -67,9 +67,3 @@ sidebar:
   });
 </script>
 
-<!-- {% assign posts = site.categories['IT 이야기']%}
-<div class="list">
-  {% for post in posts %}
-    {% include archive-single.html type='grid' %}
-  {% endfor %}
-</div> -->
