@@ -2,7 +2,7 @@
 title: "Edge Case: Invalid syntax highlight languages"
 categories:
   - 이모저모
-  - 일상
+  - IT 이야기
 tags:
   - content
   - css

@@ -2,7 +2,7 @@
 title: "Antidisestablishmentarianism"
 categories:
   - 이모저모
-  - 일상
+  - IT 이야기
 tags:
   - content
   - css

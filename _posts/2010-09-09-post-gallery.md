@@ -2,7 +2,7 @@
 title: "Post: Gallery"
 categories:
   - 이모저모
-  - 일상
+  - IT 이야기
 header:
   teaser: /assets/images/unsplash-image-6.jpg
 tags:

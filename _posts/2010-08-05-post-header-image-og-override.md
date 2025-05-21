@@ -6,7 +6,7 @@ header:
   og_image: /assets/images/page-header-og-image.png
 categories:
   - 이모저모
-  - 일상
+  - IT 이야기
 tags:
   - edge case
   - image

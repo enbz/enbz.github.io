@@ -6,7 +6,6 @@ author_profile: true
 taxonomy: 일상
 pagination:
     enabled: true
-    permalink: /:num/
     category: 일상
     per_page: 8
 sidebar:

@@ -31,15 +31,13 @@
         <li class="current"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</li>
       {% else %}
         {% assign i = i | plus: 1 %}
-
-        {% assign matched_page = site.pages | where_exp: "item", "item.permalink == path_so_far" | first %}
+        {% assign normalized_path_so_far = path_so_far |  append: 'index.html' %}
+        {% assign matched_page = site.pages | where_exp: "item", "item.permalink == normalized_path_so_far" | first %}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
           {% if matched_page %}
             {% assign crumb_title = matched_page.title %}
-  
           {% else %}
             {% assign crumb_title = crumb | capitalize | url_decode %}
-            
           {% endif %}
           
           

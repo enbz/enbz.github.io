@@ -1,7 +1,7 @@
 ---
 categories:
-  - 이모저모
-  - 일상
+  - 공부하기
+  - 3D Vision
 tags:
   - edge case
   - layout

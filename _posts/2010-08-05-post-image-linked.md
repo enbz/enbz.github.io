@@ -2,7 +2,7 @@
 title: "Post: Image (with Link)"
 categories:
   - 이모저모
-  - 일상
+  - IT 이야기
 tags:
   - image
   - Post Formats
