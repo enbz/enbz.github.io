@@ -69,7 +69,7 @@
     // font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: $muted-text-color;
+    color: black;
     border: none;
     // border: 2px dotted mix(rgba(0, 0, 0, 0), $border-color, 0%);
     border-radius: $border-radius;
@@ -299,83 +299,6 @@
     }
   }
 
-  // .visible-links {
-  //   display: -webkit-box;
-  //   display: -ms-flexbox;
-  //   display: flex;
-  //   -webkit-box-pack: end;
-  //   -ms-flex-pack: end;
-  //   justify-content: flex-end;
-  //   -webkit-box-flex: 1;
-  //   -ms-flex: 1;
-  //   flex: 1;
-  //   overflow: hidden;
-
-  //   li {
-  //     -webkit-box-flex: 0;
-  //     -ms-flex: none;
-  //     flex: none;
-  //   }
-
-  //   a {
-  //     position: relative;
-  //     color: black;
-  //     background: none;
-  //     background-clip: text;
-  //     -webkit-background-clip: text;
-  //     -webkit-text-fill-color: black;
-  //     -webkit-transition: 1s ease;
-  //     transition: background-position 1.5s ease, -webkit-text-fill-color 1.5s ease;
-  //     // transition: 
-  //     //   color 100ms ease,
-  //     //   background-position 100ms ease,
-  //     //   -webkit-text-fill-color 100ms ease;
-
-  //     // hover 효과로 무지개 텍스트 만들기
-  //     &:hover {
-  //       color: transparent;
-  //       background: linear-gradient(
-  //         45deg,
-  //         rgb(248, 170, 255),
-  //         rgb(220, 145, 255),
-  //         rgb(181, 124, 255),
-  //         rgb(199, 102, 255),
-  //         rgb(176, 142, 255),
-  //         pink,
-  //         rgb(248, 170, 255),
-  //         rgb(248, 170, 255),
-  //         rgb(220, 145, 255),
-          
-          
-  //       );
-  //       background-size: 900%; // 그라디언트 크기 크게 설정
-  //       background-position: 100% 50%;
-  //       background-clip: text;
-  //       -webkit-background-clip: text;
-  //       -webkit-text-fill-color: transparent;
-  //       animation: rainbowMove 5s linear infinite both;
-  //     }
-  //     // &:before {
-  //     //   content: "";
-  //     //   position: absolute;
-  //     //   inset-inline-start: 0;
-  //     //   bottom: 0;
-  //     //   height: 4px;
-  //     //   background: $primary-color;
-  //     //   width: 100%;
-  //     //   -webkit-transition: $global-transition;
-  //     //   transition: $global-transition;
-  //     //   -webkit-transform: scaleX(0) translate3d(0, 0, 0);
-  //     //   transform: scaleX(0) translate3d(0, 0, 0); // hide
-  //     // }
-
-  //     // &:hover:before {
-  //     //   -webkit-transform: scaleX(1);
-  //     //   -ms-transform: scaleX(1);
-  //     //   transform: scaleX(1); // reveal
-  //     // }
-  //   }
-  // }
 
   @keyframes rainbowMove {
     0% {

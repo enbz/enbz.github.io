@@ -389,23 +389,6 @@
   }
 }
 
-/* Place inside an archive layout */
-
-.archive {
-  .feature__wrapper {
-    .archive__item-title {
-      margin-top: 0.25em;
-      font-size: 1em;
-    }
-  }
-
-  .feature__item,
-  .feature__item--left,
-  .feature__item--center,
-  .feature__item--right {
-    font-size: 1em;
-  }
-}
 
 /*
    Wide Pages
@@ -423,13 +406,7 @@
   }
 }
 
-/* Place inside a single layout */
 
-.layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
-}
 
 /* View switch button layout */
 
@@ -458,24 +435,3 @@
   color: rgba(255, 255, 255, 0);
 }
 
-/* 기본 목록 보기 스타일 */
-.list .post__item {
-  display: block;
-  margin-bottom: 1.5em;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 1em;
-}
-
-/* 그리드 스타일 */
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-}
-
-.grid .post__item {
-  flex: 0 0 calc(33% - 1em);
-  box-sizing: border-box;
-  border: 1px solid #ddd;
-  padding: 1em;
-}

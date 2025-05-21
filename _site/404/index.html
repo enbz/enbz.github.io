@@ -6,7 +6,7 @@
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 
-<html lang="en-EN" class="no-js">
+<html lang="en-US" class="no-js">
   <head>
     <meta charset="utf-8">
 
@@ -19,7 +19,7 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:locale" content="en_EN">
+<meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="ANOTHER DEVLOG">
 <meta property="og:title" content="ANOTHER DEVLOG">
 <meta property="og:url" content="http://localhost:4000/404/">
@@ -275,7 +275,7 @@
       <nav class="nav__list">
   
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">Toggle Menu</label>
+  <label for="ac-toc">Toggle menu</label>
   <ul class="nav__items">
     
       
@@ -401,7 +401,7 @@
             <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/">
               <span class="nav__sub-title">
                 🥨 이모저모
-                
+                <span class="count">(10)</span>
               </span>
             </a>
           
@@ -412,7 +412,7 @@
                 
                 <li>
                   <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/">
-                    일상 <span class="count">(0)</span>
+                    일상 <span class="count">(10)</span>
                   </a>
                 </li>
               
@@ -450,19 +450,6 @@
     
     
     
-      
-      <!-- &quot;/404/&quot; -->
-      
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
-
-          <meta itemprop="position" content="1" />
-        </li>
-        <span class="sep">/</span>
-      
-      
-        <li class="current"></li>
-      
     
   </ol>
 </nav> 
@@ -470,14 +457,16 @@
       
     
     
-      <h1 id="page-title" class="page__title"></h1>
+      
+        <h1 id="page-title" class="page__title"></h1>
+      
     
     
 
-<h3 class="archive__subtitle">Recent Posts</h3>
+<h3 class="archive__subtitle">Recent posts</h3>
 
 
-
+<!-- page.entries_layout -->
 
 <div class="entries-list">
   
@@ -485,11 +474,633 @@
 
 
 
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/layout-read-time/" rel="permalink">Layout: Read Time Enabled
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2012-01-02T00:00:00+09:00">2012년 1월 2일</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post has reading time enabled. The estimated time that it takes to read this post should show if also enabled in _config.yml with read_time: true.
+</p>
+  </article>
 </div>
 
 
 
 
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/layout-read-time-disabled/" rel="permalink">Layout: Read Time Disabled
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2012-01-02T00:00:00+09:00">2012년 1월 2일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post has reading time disabled. The estimated time that it takes to read this post should not be showing if read_time: false is set in _config.yml or in...</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/layout-post-date-disabled/" rel="permalink">Layout: Post Date Disabled
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post has the date disabled. The date this post was published should not be showing if show_date: false is set in _config.yml or in this post’s YAML Fron...</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/layout/layout-comments-disabled/" rel="permalink">Layout: Comments Disabled
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2012-01-02T00:00:00+09:00">2012년 1월 2일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post has its comments disabled.
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-gallery/" rel="permalink">Post: Gallery
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2010-09-09T00:00:00+09:00">2010년 9월 9일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">These are gallery tests for image wrapped in &lt;figure&gt; elements.
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/post-formats/post-image-caption/" rel="permalink">Post: Image (Caption)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2010-08-07T00:00:00+09:00">2010년 8월 7일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-image-standard/" rel="permalink">Post: Image (Standard)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2010-08-05T00:00:00+09:00">2010년 8월 5일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">The preferred way of using images is placing them in the /assets/images/ directory and referencing them with an absolute path. Prepending the filename with {...</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-image-linked/" rel="permalink">Post: Image (with Link)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2010-08-05T00:00:00+09:00">2010년 8월 5일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/layout/post-header-overlay-image-og-override/" rel="permalink">Post: Overlay Image with OpenGraph Override
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2010-08-05T00:00:00+09:00">2010년 8월 5일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post has a header image with an OpenGraph override.
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-header-image-og-override/" rel="permalink">Post: Header Image with OpenGraph Override
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2010-08-05T00:00:00+09:00">2010년 8월 5일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post has a header image with an OpenGraph override.
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-modified/" rel="permalink">Post: Modified Date
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2010-01-07T00:00:00+09:00">2010년 1월 7일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post has been updated and should show a modified date if used in a layout.
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/edge-case-broken-highlighting/" rel="permalink">Edge Case: Invalid syntax highlight languages
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2009-10-06T00:00:00+09:00">2009년 10월 6일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Good highlighting:
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/edge-case-title-should-not-overflow-the-content-area/" rel="permalink">Antidisestablishmentarianism
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2009-10-05T00:00:00+09:00">2009년 10월 5일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Title should not overflow the content area
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/edge-case-multiline-excerpt/" rel="permalink">Edge Case: Post with multiline excerpt
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2009-10-05T00:00:00+09:00">2009년 10월 5일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Et ex ullamco duis don’t
+combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidatat. Aliqua fugiat aliquip officia culpa elit. Adipisi...</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/edge-case-no-yaml-title/" rel="permalink">Edge Case No Yaml Title
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2009-09-05T00:00:00+09:00">2009년 9월 5일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post has no title specified in the YAML Front Matter. Jekyll should auto-generate a title from the filename.
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/edge-case-no-body-content/" rel="permalink">Edge Case: No Body Content
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2009-08-06T00:00:00+09:00">2009년 8월 6일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
+</p>
+  </article>
+</div>
+
+
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/edge-case-nested-and-mixed-lists/" rel="permalink">Edge Case: Nested and Mixed Lists
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2009-05-15T00:00:00+09:00">2009년 5월 15일</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Nested and mixed lists are an interesting beast. It’s a corner case to make sure that
+</p>
+  </article>
+</div>
+
+</div>
+
+
+
+
+    
   </div>
 </div>
 
@@ -500,9 +1111,9 @@
       <div class="search-content">
         <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
     <label class="sr-only" for="search">
-      Enter your search term...
+      Enter your search term...🔍
     </label>
-    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...🔍" />
   </form>
   <div id="results" class="results"></div></div>
 
@@ -516,6 +1127,8 @@
 <!-- end custom footer snippets -->
         <div class="page__footer-follow">
   <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
     
 
     

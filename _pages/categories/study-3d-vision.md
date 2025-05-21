@@ -31,7 +31,7 @@ sidebar:
 
 <!-- 💡 Grid View -->
 <div id="grid-view" class="view-mode" style="display: none;">
-  {% assign posts = site.categories['3D Vison] %}
+  {% assign posts = site.categories['3D Vison'] %}
   {% for post in posts %}
     {% include archive-single.html type='grid' %}
   {% endfor %}
