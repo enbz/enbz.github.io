@@ -3,6 +3,8 @@ title: "Post: Gallery"
 categories:
   - 이모저모
   - 일상
+header:
+  teaser: /assets/images/unsplash-image-6.jpg
 tags:
   - gallery
   - Post Formats

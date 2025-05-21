@@ -1,6 +1,7 @@
 ---
 title: "Post: Header Image with OpenGraph Override"
 header:
+  teaser: /assets/images/Old-fashioned-peanut-butter-cookies.jpg
   image: /assets/images/page-header-image.png
   og_image: /assets/images/page-header-og-image.png
 categories:
