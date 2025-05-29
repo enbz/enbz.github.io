@@ -22,7 +22,7 @@ Minimal Mistakes 테마로 블로그를 만들면 카테고리는 보통 아래 
 
 
 <figure>
-    <img src="/assets/images/post_250530_01.png" alt="기존 리스트뷰" width="700" />
+    <img src="/assets/images/post_250530_01.PNG" alt="기존 리스트뷰" width="700" />
     <figcaption>기본 카테고리 리스트뷰 모습 (예시)</figcaption>
 </figure>
 
