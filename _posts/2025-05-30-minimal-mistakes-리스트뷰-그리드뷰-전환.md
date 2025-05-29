@@ -13,7 +13,7 @@ tags:
   - html
   - 커스터마이징
 ---
-
+<!-- 
 &nbsp;
 &nbsp;
 &nbsp;
@@ -113,4 +113,4 @@ category.html을 위 코드 그대로 작성했다고 치면
 
 이렇게 minimal mistakes에서 리스트뷰/그리드뷰 전환 기능이 완성되었다. :3
 
-&nbsp;
+&nbsp; -->
