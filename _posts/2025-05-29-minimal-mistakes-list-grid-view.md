@@ -5,7 +5,6 @@ categories:
   - 블로그 꾸미기
 header:
   teaser: "/assets/images/post_250530_01.png"
-
 tags:
   - github blog
   - Jekyll
