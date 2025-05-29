@@ -4,25 +4,9 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:4000/layout-read-time/</loc>
+        <loc>http://localhost:4000/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%BE%B8%EB%AF%B8%EA%B8%B0/minimal-mistakes-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%B7%B0-%EA%B7%B8%EB%A6%AC%EB%93%9C%EB%B7%B0-%EC%A0%84%ED%99%98/</loc>
         
-        <lastmod>2012-01-02T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/layout-read-time-disabled/</loc>
-        
-        <lastmod>2012-01-02T00:00:00+09:00</lastmod>
+        <lastmod>2025-05-30T00:00:00+09:00</lastmod>
         
 
         
@@ -36,39 +20,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/layout-post-date-disabled/</loc>
-        
-        <lastmod>2012-01-02T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/layout/layout-comments-disabled/</loc>
-        
-        <lastmod>2012-01-02T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/it-%EC%9D%B4%EC%95%BC%EA%B8%B0/post-gallery/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-gallery/</loc>
         
         <lastmod>2010-09-09T00:00:00+09:00</lastmod>
         
@@ -84,7 +36,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/post-formats/post-image-caption/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-image-caption/</loc>
         
         <lastmod>2010-08-07T00:00:00+09:00</lastmod>
         
@@ -100,7 +52,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/it-%EC%9D%B4%EC%95%BC%EA%B8%B0/post-image-standard/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-image-standard/</loc>
         
         <lastmod>2010-08-05T00:00:00+09:00</lastmod>
         
@@ -116,7 +68,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/it-%EC%9D%B4%EC%95%BC%EA%B8%B0/post-image-linked/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-image-linked/</loc>
         
         <lastmod>2010-08-05T00:00:00+09:00</lastmod>
         
@@ -132,7 +84,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/layout/post-header-overlay-image-og-override/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-header-overlay-image-og-override/</loc>
         
         <lastmod>2010-08-05T00:00:00+09:00</lastmod>
         
@@ -148,7 +100,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/it-%EC%9D%B4%EC%95%BC%EA%B8%B0/post-header-image-og-override/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-header-image-og-override/</loc>
         
         <lastmod>2010-08-05T00:00:00+09:00</lastmod>
         
@@ -164,7 +116,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/it-%EC%9D%B4%EC%95%BC%EA%B8%B0/post-modified/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/post-modified/</loc>
         
         <lastmod>2010-01-07T00:00:00+09:00</lastmod>
         
@@ -180,7 +132,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/it-%EC%9D%B4%EC%95%BC%EA%B8%B0/edge-case-broken-highlighting/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/edge-case-broken-highlighting/</loc>
         
         <lastmod>2009-10-06T00:00:00+09:00</lastmod>
         
@@ -196,7 +148,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/it-%EC%9D%B4%EC%95%BC%EA%B8%B0/edge-case-title-should-not-overflow-the-content-area/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/edge-case-title-should-not-overflow-the-content-area/</loc>
         
         <lastmod>2009-10-05T00:00:00+09:00</lastmod>
         
@@ -212,7 +164,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/edge-case-multiline-excerpt/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/edge-case-multiline-excerpt/</loc>
         
         <lastmod>2009-10-05T00:00:00+09:00</lastmod>
         
@@ -228,7 +180,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0/3d-vision/edge-case-no-yaml-title/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/edge-case-no-yaml-title/</loc>
         
         <lastmod>2009-09-05T00:00:00+09:00</lastmod>
         
@@ -244,7 +196,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/it-%EC%9D%B4%EC%95%BC%EA%B8%B0/edge-case-no-body-content/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/edge-case-no-body-content/</loc>
         
         <lastmod>2009-08-06T00:00:00+09:00</lastmod>
         
@@ -260,7 +212,7 @@
     </url>
     
     <url>
-        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/it-%EC%9D%B4%EC%95%BC%EA%B8%B0/edge-case-nested-and-mixed-lists/</loc>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/edge-case-nested-and-mixed-lists/</loc>
         
         <lastmod>2009-05-15T00:00:00+09:00</lastmod>
         

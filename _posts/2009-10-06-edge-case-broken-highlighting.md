@@ -2,7 +2,9 @@
 title: "Edge Case: Invalid syntax highlight languages"
 categories:
   - 이모저모
-  - IT 이야기
+  - 일상
+header:
+  teaser: "/assets/images/new-york-city-picture-2560x1440_67859-mm-90.jpg"
 tags:
   - content
   - css

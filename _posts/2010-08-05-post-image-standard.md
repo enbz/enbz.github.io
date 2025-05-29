@@ -2,7 +2,9 @@
 title: "Post: Image (Standard)"
 categories:
   - 이모저모
-  - IT 이야기
+  - 일상
+header:
+  teaser: "/assets/images/wp6010471-resolutions-wallpapers.jpg"
 tags:
   - image
   - Post Formats

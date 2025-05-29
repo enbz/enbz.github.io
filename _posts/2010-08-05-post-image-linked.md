@@ -2,7 +2,9 @@
 title: "Post: Image (with Link)"
 categories:
   - 이모저모
-  - IT 이야기
+  - 일상
+header:
+  teaser: "/assets/images/unsplash-image-6.jpg"
 tags:
   - image
   - Post Formats

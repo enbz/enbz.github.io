@@ -1,7 +1,11 @@
 ---
 title: "Post: Image (Caption)"
 categories:
-  - Post Formats
+  - 이모저모
+  - 일상
+header:
+  teaser: "/assets/images/Old-fashioned-peanut-butter-cookies.jpg"
+excerpt: "직접 설정한 미리보기 텍스트입니다."
 tags:
   - image
   - Post Formats

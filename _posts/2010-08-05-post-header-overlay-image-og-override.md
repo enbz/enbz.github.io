@@ -7,8 +7,10 @@ header:
   actions:
     - label: "Learn more"
       url: "https://unsplash.com"
+  teaser: "/assets/images/8131285.jpg"
 categories:
-  - Layout
+  - 이모저모
+  - 일상
 tags:
   - edge case
   - image

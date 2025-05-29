@@ -3,7 +3,9 @@ title: "Post: Modified Date"
 last_modified_at: 2016-03-09T16:20:02-05:00
 categories:
   - 이모저모
-  - IT 이야기
+  - 일상
+header:
+  teaser: "/assets/images/wp9956939-pixel-art-pc-wallpapers.png"
 tags:
   - Post Formats
   - readability

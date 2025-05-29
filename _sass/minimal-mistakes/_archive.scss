@@ -408,20 +408,18 @@
 
 
 
-/* View switch button layout */
-
+/* View switch 버튼 레이아웃 */
 .view-switch {
   display: flex;
-  justify-content: flex-end; /* 👉 오른쪽으로 정렬 */
+  justify-content: flex-end; /* 오른쪽으로 정렬 */
   margin-bottom: 0em;
   gap: 0.5em; /* 버튼 사이 간격 */
 }
-/* 버튼 */
-.view-btn {
+
+/* 버튼 (안 눌렀을 때) */
+.view-btn { 
   padding: 0em 0em;
-  font-family: 'leferi';
   border: none;
-  // border: 1px solid #ccc;
   background: rgba(255, 255, 255, 0);
   cursor: pointer;
   margin-right: 0.5em;
@@ -430,6 +428,7 @@
   margin-top: 0em;
 }
 
+/* 버튼 (눌렀을 때) */
 .view-btn.active {
   background: #e4e4e4;
   color: rgba(255, 255, 255, 0);

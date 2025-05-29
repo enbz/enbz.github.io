@@ -2,7 +2,9 @@
 title: "Edge Case: Nested and Mixed Lists"
 categories:
   - 이모저모
-  - IT 이야기
+  - 일상
+header:
+  teaser: "/assets/images/500x300.png"
 tags:
   - content
   - css

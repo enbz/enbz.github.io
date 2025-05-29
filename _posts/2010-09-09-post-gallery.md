@@ -2,9 +2,9 @@
 title: "Post: Gallery"
 categories:
   - 이모저모
-  - IT 이야기
+  - 일상
 header:
-  teaser: /assets/images/unsplash-image-6.jpg
+  teaser: "/assets/images/Dairy-Free-Peanut-Butter-Cookies-4.jpg"
 tags:
   - gallery
   - Post Formats

@@ -1,5 +1,8 @@
 ---
 title: "Edge Case: Post with multiline excerpt"
+categories:
+  - 이모저모
+  - 일상
 ---
 
 Et ex ullamco duis don't
