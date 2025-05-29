@@ -4,7 +4,7 @@ categories:
   - 프로젝트
   - 블로그 꾸미기
 header:
-  teaser: "/assets/images/post_250530_01.png"
+  teaser: "/assets/images/post_list_view.png"
 tags:
   - github blog
   - Jekyll
@@ -22,7 +22,7 @@ Minimal Mistakes 테마로 블로그를 만들면 카테고리는 보통 아래 
 
 
 <figure>
-    <img src="/assets/images/post_250530_01.PNG" alt="기존 리스트뷰" width="700" />
+    <img src="/assets/images/post_list_view.png" alt="기존 리스트뷰" width="700" />
     <figcaption>기본 카테고리 리스트뷰 모습 (예시)</figcaption>
 </figure>
 
