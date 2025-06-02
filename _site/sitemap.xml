@@ -4,25 +4,9 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:4000/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%BE%B8%EB%AF%B8%EA%B8%B0/minimal-mistakes-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%B7%B0-%EA%B7%B8%EB%A6%AC%EB%93%9C%EB%B7%B0-%EC%A0%84%ED%99%98/</loc>
+        <loc>http://localhost:4000/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%BE%B8%EB%AF%B8%EA%B8%B0/minimal-mistakes-list-grid-view/</loc>
         
-        <lastmod>2025-05-30T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%BE%B8%EB%AF%B8%EA%B8%B0/post-image-caption/</loc>
-        
-        <lastmod>2010-08-07T00:00:00+09:00</lastmod>
+        <lastmod>2025-05-29T00:00:00+09:00</lastmod>
         
 
         
