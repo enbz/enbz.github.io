@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://enbz.github.io/my-sitemap.xml
+Sitemap: https://enbz.github.io/sitemap.xml
