@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8/%EC%9D%BC%EC%83%81/spicetify/</loc>
+        
+        <lastmod>2025-06-09T00:00:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%BE%B8%EB%AF%B8%EA%B8%B0/minimal-mistakes-list-grid-view/</loc>
         
         <lastmod>2025-05-29T00:00:00+09:00</lastmod>
