@@ -84,7 +84,7 @@ Full Screen은 음악 재생 중에 우측 하단의 버튼을 클릭하면 전�
 
 <img src="/assets/images/250609/03.png" alt="full screen 실행 화면 1" />
 
-<img src="/assets/images/250609/04.png" alt="full screen 실행 화면 2" />
+<img src="/assets/images/250609/05.png" alt="full screen 실행 화면 2" />
 
 Default Dynamic은 앨범 자켓 이미지에 맞춰서 색이 바뀌는 테마여서, 소소하게 마음에 든다.   
 light/dark도 설정할 수 있다.
