@@ -4,7 +4,7 @@ categories:
   - 이모저모
   - 일상
 header:
-  teaser: "/assets/images/250609/header.png"
+  teaser: "/assets/images/250609/00.png"
 tags:
   - powershell
   - spotify
@@ -76,7 +76,7 @@ spicetify update
 설치한 후 스포티파이를 실행하면 왼쪽 위에 marketplace 메뉴가 생긴다.
 클릭하면 확장기능, 테마, 스니펫 등등을 골라 설치할 수 있다.  
 
-<img src="/assets/images/250609/01.png" alt="spicetify 메뉴 모습" />
+<img src="/assets/images/250609/001.png" alt="spicetify 메뉴 모습" />
 
 나는 현재 daksh2k의 Full Screen 기능과 JulienMaille의 Default Dynamic을 테마를 사용하고 있다.
 
