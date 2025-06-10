@@ -1,5 +1,5 @@
 ---
-title: "Spicetify로 스포티파이를 내 마음대로 커스터마이징해보자"
+title: "Spicetify로 스포티파이 테마 바꾸기"
 categories:
   - 이모저모
   - 일상
