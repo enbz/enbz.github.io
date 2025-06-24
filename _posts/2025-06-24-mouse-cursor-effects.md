@@ -234,9 +234,8 @@ Jekyll과 같은 GitHub Pages나 자체 웹사이트 등 Markdown이 HTML을 지
 ## 4. 색깔, 텍스트 등 세부옵션 조정
 
 몇몇 커서 종류는 색이나 텍스트, 이모티콘을 바꿀 수 있습니다.
-예를 들어 fairyDustCursor의 경우, 아래와 같이 입자효과 색상을 지정할 수 있습니다.
-
 그 중 몇가지만 소개드리면 아래와 같습니다.
+예를 들어 fairyDustCursor의 경우, 아래와 같이 입자효과 색상을 지정할 수 있습니다.
 
 ```
 new fairyDustCursor({ colors: ["#b560eb", "#f7c4f3", "#c4d0f7"], element: box2 });
@@ -245,7 +244,7 @@ new fairyDustCursor({ colors: ["#b560eb", "#f7c4f3", "#c4d0f7"], element: box2 }
 emojiCursor에서 이모티콘의 종류, 간격을 지정하려면 아래와 같이 입력합니다.
 
 ```
-new cursoreffects.emojiCursor({ emoji: ["🦄", "🔮", "🎀"], delay: 25 });
+new emojiCursor({ emoji: ["🦄", "🔮", "🎀"], delay: 25 });
 ```
 
 textFlag에서 텍스트의 종류, 색상은 아래와 같이 변경할 수 있습니다. 한글도 잘 나오더라구요!
