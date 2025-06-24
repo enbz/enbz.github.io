@@ -4,7 +4,7 @@ categories:
   - 프로젝트
   - 블로그 꾸미기
 header:
-  teaser: "/assets/images/post_list_view.png"
+  teaser: "/assets/images/grid_teaser-8.png"
 tags:
   - github blog
   - Jekyll
