@@ -20,7 +20,12 @@ tags:
 
 옛날 홈페이지에서 자주 보던 y2k 감성의 마우스 커서 효과를 블로그에 적용해보고싶었는데, 마침 적절한 사이트를 발견해서 소개해드립니다.
 
-링크: [90s cursor effects][cursoreffects]
+<figure>
+    <img src="/assets/images/250624/06.gif" alt="마우스 커서 이펙트" width="700" />
+    <figcaption>마우스 커서 이펙트 적용 모습</figcaption>
+</figure>
+
+깃허브 링크: [90s cursor effects][cursoreffects]
 
 Jekyll과 같은 GitHub Pages나 자체 웹사이트 등 Markdown이 HTML을 지원하는 환경이면 간단하게 적용 가능합니다.
 
