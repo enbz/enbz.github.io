@@ -8,12 +8,12 @@ header:
 tags:
   - powershell
   - spotify
+  - 블로그
   - 플러그인
   - 커스터마이징
   - 스포티파이
-  - 스포티파이 테마
+  - 테마
   - spicetify
-  - spicetify 오류
 ---
 
 PC앱 환경에서 사용하기 좋은 스포티파이용 플랫폼 툴 spicetify와 제가 쓰는 플러그인을 소개하고자 합니다. (아마 유명해서 알 사람은 다 알 듯)
