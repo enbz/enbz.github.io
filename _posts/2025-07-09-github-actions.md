@@ -53,7 +53,7 @@ Build and deployment 아래의 Source 드롭다운 메뉴를 Github Actions로 �
 
 이번에는 상단의 Actions 탭으로 가서 New workflow를 시작한 다음 Jekyll을 찾습니다.
 
-<img src="/assets/images/250709/05_.png" />
+<img src="/assets/images/250709/08.png" />
 
 Jekyll workflow 아래에 configure를 클릭합니다. (Github Pages Jekyll이 아닌 그냥 Jekyll입니다!)
 
