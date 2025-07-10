@@ -1,8 +1,7 @@
 ---
 title: "Edge Case: Nested and Mixed Lists"
 categories:
-  - 프로젝트
-  - 블로그 꾸미기
+  - Edge Case
 tags:
   - content
   - css
