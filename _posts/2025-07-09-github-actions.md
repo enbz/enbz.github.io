@@ -4,7 +4,7 @@ categories:
   - 프로젝트
   - 블로그 꾸미기
 header:
-  teaser: "/assets/images/250709/04_.png"
+  teaser: "/assets/images/250709/04.png"
 tags:
   - github blog
   - Jekyll
@@ -57,16 +57,16 @@ Build and deployment 아래의 Source 드롭다운 메뉴를 Github Actions로 �
 
 Jekyll workflow 아래에 configure를 클릭합니다. (Github Pages Jekyll이 아닌 그냥 Jekyll입니다!)
 
-<img src="/assets/images/250709/06_.png" />
+<img src="/assets/images/250709/06__.png" />
 
 이대로 다 하셨으면 commit changes를 클릭합니다.
 
-<img src="/assets/images/250709/07_.png" />
+<img src="/assets/images/250709/07.png" />
 
 이제 branch에 업데이트를 할 때마다 action이 자동적으로 실행하면서 빌드가 될 것입니다.
 빌드 내역은 Actions 탭에서 언제든 확인할 수 있습니다.
 
-<img src="/assets/images/250709/04_.png" />
+<img src="/assets/images/250709/04.png" />
 
 출처: [Jekyll 공식 홈페이지][jekyll_github_actions]
 
