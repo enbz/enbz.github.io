@@ -19,7 +19,7 @@ Light field는 기존의 센서 픽셀 위치에 따른 빛의 세기 I(x,y)로 
 Light field를 물리적으로 구현하기 위해서는 단순히 카메라 혹은 센서를 여러 방향에 배열해서 다방향의 이미지를 기록하거나, micro lens array를 사용하여 한 장의 raw 이미지를 캡처한 다음 디코딩하는 방법이 있습니다.
 
 <figure>
-    <img src="/assets/images/250816/02.png" alt="light field 원리" width="400" />
+    <img src="/assets/images/250816/03.png" alt="light field 원리" width="400" />
     <figcaption>Yeung et al, "Light Field Spatial Super-Resolution Using Deep
 Efficient Spatial-Angular Separable Convolution"</figcaption>
 </figure>
