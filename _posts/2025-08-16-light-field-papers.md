@@ -5,6 +5,10 @@ categories:
   - 3D Vision
 header:
   teaser: "/assets/images/250816/01.png"
+  overlay_image: /assets/images/250816/00.png
+toc: true
+toc_sticky: true
+excerpt: " "
 tags:
   - 논문
   - vision
