@@ -5,6 +5,8 @@ categories:
   - 블로그 꾸미기
 header:
   teaser: "/assets/images/grid_teaser-8.png"
+toc: true
+toc_sticky: true
 tags:
   - github blog
   - Jekyll
